@@ -1,0 +1,15 @@
+{
+	"comment1":"cd MutationTest",
+	"comment2":"run test with",
+	"comment3":"php mutableTests.php ../TestMutantTest/MutantConfiguration.json",
+	"originalpath":"../testMutationsTDD",
+	"mutantcopypath":"../testMutationsTDDMutants",
+	"project":"testMutationsTDD.xcodeproj",
+	"testpairs":
+	[
+		{
+			"implementation":"",
+		 	"Unittest":""
+		 }
+	]
+}
