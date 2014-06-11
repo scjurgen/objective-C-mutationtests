@@ -63,8 +63,8 @@
       <file leaf-file-name="LocalSunRiseUnitTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testMutationsTDDTests/LocalSunRiseUnitTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21690768" vertical-offset="705" max-vertical-offset="1800">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.2013348" vertical-offset="0" max-vertical-offset="1800">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
                 <element signature="e#261#286#0" expanded="true" />
               </folding>
@@ -89,8 +89,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="276" />
-    <option name="y" value="393" />
+    <option name="x" value="298" />
+    <option name="y" value="389" />
     <option name="width" value="2044" />
     <option name="height" value="1000" />
   </component>
@@ -168,6 +168,7 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="683" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.testMutationsTDD">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="testMutationsTDD" TARGET_NAME="testMutationsTDD" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testMutationsTDD" RUN_TARGET_NAME="testMutationsTDD" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -197,6 +198,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dd17c359-8c0b-42da-99d3-38d37d3aa276" name="Default" comment="" />
@@ -207,7 +211,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="393" width="2044" height="1000" extended-state="0" />
+    <frame x="298" y="389" width="2044" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -311,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testMutationsTDDTests/LocalSunRiseUnitTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21690768" vertical-offset="705" max-vertical-offset="1800">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.2013348" vertical-offset="0" max-vertical-offset="1800">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="e#261#286#0" expanded="true" />
           </folding>

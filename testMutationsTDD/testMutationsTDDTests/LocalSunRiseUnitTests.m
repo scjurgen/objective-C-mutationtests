@@ -29,7 +29,7 @@ static CLLocationCoordinate2D southPoleLocation = {-90.0,0.0};
 
 #define January_01_2014 (1388534400)
 #define March_24_2014 (1332547200)
-#define March_25_2014 (1332633600)
+#define March_25_2014 (1332633600)   // summertime change
 
 @interface LocalSunRiseUnitTests : XCTestCase
 {
