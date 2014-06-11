@@ -1,10 +1,16 @@
-#Objective-C-mutationtests
+#Objective-C mutation tests
 
 ##Mutation tests for Objective-C
 
 As I could not find any tool to do mutation tests with Objective-C I came up with this simple solution.
 Maybe someone is into testing and would like to help in this little, but useful project to create sustainable software.
 
+###How it Works
+
+See also: [http://en.wikipedia.org/wiki/Mutation_testing] 
+
+A small script mutates your testing source code. If for example you have an expression like (a==b) it might be exchanged with (a!=b). If your Unittests covers well your code it should now break your Unittest, this is called killing a mutant.
+If the unit test dooes not fail you did not cover well this case and should write a testcase where this test is covered.
 
 ##What do you need
 
@@ -17,9 +23,6 @@ Ideally the Testing Code and the affected relative file are following the naming
 {sourcefile}UnitTest.m
 
 
-##How it Works
-A small script mutates your testing source code. If for example you have an expression like (a==b) it might be exchanged with (a!=b). If your Unittests covers well your code it should now break your Unittest, this is called killing a mutant.
-If the unit test dooes not fail you did not cover well this case and should write a testcase where this test is covered.
 
 ##Unittest coding convention
 
