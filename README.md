@@ -45,9 +45,20 @@ If you do not follow this convention you have to help the mutantgenereator by pr
 Unittests are following a coding convention (I know that it is Objective-C unstylish):
 
 ```
-- (void) {what}_{goesIn}_{expected}()
+- (void) {test what}_{what goes in}_{expected result}()
 {
 }
+
+// i.e.: testing sunrise, for the 1st of January 2014 in Berlin, the expected result is UTC 8:17 (am)
+
+- (void)testSunrise_FirstOfJanuary2014Berlin_0817
+{    
+	NSDate * date = [NSDate dateWithTimeIntervalSince1970:January_01_2014];
+    int sunrise = [sr calculateSunrise:date location:berlinLocation];
+    int expectedTime = 7*60+17;
+    XCTAssertEqualWithAccuracy(sunrise/60.0, expectedTime, 1, @"Sunrise time is wrong");
+}
+
 ```
 
 ##Example Code

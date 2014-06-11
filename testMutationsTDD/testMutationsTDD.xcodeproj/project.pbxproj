@@ -22,7 +22,7 @@
 		283AC574191D19BC0090534F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283AC572191D19BC0090534F /* InfoPlist.strings */; };
 		283AC576191D19BC0090534F /* testMutationsTDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283AC575191D19BC0090534F /* testMutationsTDDTests.m */; };
 		283AC581191D1A070090534F /* LocalSunRise.m in Sources */ = {isa = PBXBuildFile; fileRef = 283AC580191D1A070090534F /* LocalSunRise.m */; };
-		283AC583191D1A220090534F /* MutLocalSunRiseUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283AC582191D1A220090534F /* MutLocalSunRiseUnitTests.m */; };
+		283AC583191D1A220090534F /* LocalSunRiseUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283AC582191D1A220090534F /* LocalSunRiseUnitTests.m */; };
 		283AC584191D1D1B0090534F /* LocalSunRise.m in Sources */ = {isa = PBXBuildFile; fileRef = 283AC580191D1A070090534F /* LocalSunRise.m */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +58,7 @@
 		283AC575191D19BC0090534F /* testMutationsTDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMutationsTDDTests.m; sourceTree = "<group>"; };
 		283AC57F191D1A070090534F /* LocalSunRise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalSunRise.h; sourceTree = "<group>"; };
 		283AC580191D1A070090534F /* LocalSunRise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalSunRise.m; sourceTree = "<group>"; };
-		283AC582191D1A220090534F /* MutLocalSunRiseUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutLocalSunRiseUnitTests.m; sourceTree = "<group>"; };
+		283AC582191D1A220090534F /* LocalSunRiseUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalSunRiseUnitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 		283AC56F191D19BC0090534F /* testMutationsTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				283AC582191D1A220090534F /* MutLocalSunRiseUnitTests.m */,
+				283AC582191D1A220090534F /* LocalSunRiseUnitTests.m */,
 				283AC575191D19BC0090534F /* testMutationsTDDTests.m */,
 				283AC570191D19BC0090534F /* Supporting Files */,
 			);
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283AC583191D1A220090534F /* MutLocalSunRiseUnitTests.m in Sources */,
+				283AC583191D1A220090534F /* LocalSunRiseUnitTests.m in Sources */,
 				283AC584191D1D1B0090534F /* LocalSunRise.m in Sources */,
 				283AC576191D19BC0090534F /* testMutationsTDDTests.m in Sources */,
 			);

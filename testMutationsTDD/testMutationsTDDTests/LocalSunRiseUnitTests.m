@@ -16,22 +16,29 @@
 #import <XCTest/XCTest.h>
 #import "LocalSunRise.h"
 
-static CLLocationCoordinate2D berlinLocation = {52.516667,13.383333};
-static CLLocationCoordinate2D northPoleLocation = {90,0};
+static CLLocationCoordinate2D berlinLocation       = {+52.5166667,  +13.3833333};
+static CLLocationCoordinate2D sydneyLocation       = {-33.8678500, +151.2073200};
+static CLLocationCoordinate2D longyearbyenLocation = {+78.2186000,  +15.6400700};
+static CLLocationCoordinate2D riodejaneiroLocation = {-22.9027800,  -43.2075000};
+static CLLocationCoordinate2D habanaLocation       = {+23.1330200,  -82.3830400};
+
+static CLLocationCoordinate2D northPoleLocation = {+90.0,0.0};
+static CLLocationCoordinate2D southPoleLocation = {-90.0,0.0};
+
 
 
 #define January_01_2014 (1388534400)
 #define March_24_2014 (1332547200)
 #define March_25_2014 (1332633600)
 
-@interface MutLocalSunRiseUnitTests : XCTestCase
+@interface LocalSunRiseUnitTests : XCTestCase
 {
     LocalSunRise *sr;
 }
 
 @end
 
-@implementation MutLocalSunRiseUnitTests
+@implementation LocalSunRiseUnitTests
 
 - (void)setUp
 {
